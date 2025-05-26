@@ -8,7 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Spring Boot funcionando!";
+        return "Nova versão: Spring Boot atualizado!";
     }
 }
-
